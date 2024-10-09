@@ -1,0 +1,29 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 30px;
+}
+nav ul li{
+    background-color: transparent;
+    padding: 5px 15px;
+    border-radius: 15px;
+    border: none;
+    width: 100%;
+    height: fit-content;
+    font-size: 17px;
+    font-weight: 400;
+    transition: background-color 0.7s ease-in-out;
+    cursor: pointer;
+ 
+
+
+}
+li:hover{
+    background: linear-gradient(45deg, red, blue);
+    /* font-size: 20px; */
+}

@@ -1,0 +1,42 @@
+body,html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1280px;
+    height:100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 8px;
+    overflow: auto;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow for better visual */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Transition for border and shadow */
+   
+}
+.card-header img{
+       width: 100%;
+       height: auto;
+       
+}
+.content{
+    text-align: center;
+    padding: 10px;
+}
+.card-footer{
+    font-size: 25px;
+    padding: 10px;
+    background-color: rgb(249, 248, 245);
+    justify-content: center;
+    display: flex;
+    
+}
+.card:hover {
+    border-color: #ff5733; /* Change to the desired border color on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Slightly increased shadow on hover */
+  
+}
